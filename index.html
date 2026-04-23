@@ -1,16 +1,89 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Portfolio | My CV</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>Portfolio - Sergio Marcen Tomás</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Working on the page</h1>
-    <a href="cv/CV.pdf" download="Sergio_CV.pdf">Download CV</a>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <header>
+        <div class="profile-container">
+            <img src="perfil.jpg" alt="Retrato de Sergio Marcen Tomás" class="profile-img">
+        </div>
+        
+        <h1>Sergio Marcen Tomás</h1>
+        <p>Estudiante de Sistemas Microinformáticos y Redes</p>
+        
+        <ul class="contact-info">
+            <li><a href="mailto:sergimaten204@gmail.com">sergimaten204@gmail.com</a></li>
+            <li><a href="https://333neo.github.io" target="_blank">Mi GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/sergio-marcen-tomas/" target="_blank">LinkedIn</a></li>
+        </ul>
+        
+        <a href="CV.pdf" download="CV_Sergio_Marcen.pdf" class="btn-descarga">Descargar CV (PDF)</a>
+    </header>
+
+    <div class="container">
+        <section>
+            <h2>Sobre mí</h2>
+            <p>Estudiante graduado en Sistemas Microinformáticos y Redes (SMR) en el Centro San Valero. Cuento con una base sólida en administración de sistemas, servicios de red y entornos cloud. Mi objetivo es especializarme en el Desarrollo de Aplicaciones Multiplataforma (DAM) para integrar mis conocimientos de infraestructura con el desarrollo de software.</p>
+        </section>
+
+        <section>
+            <h2>Experiencia</h2>
+            <div class="card">
+                <h3>Operario de Restaurante - Popeyes, Zaragoza</h3>
+                <p class="date">Noviembre 2023 - Marzo 2024</p>
+                <p>Trabajo en equipo bajo presión, cumplimiento de objetivos diarios y atención al cliente en un entorno dinámico de comida rápida.</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Formación</h2>
+            <div class="card">
+                <h3>Grado Medio en Sistemas Microinformáticos y Redes (SMR)</h3>
+                <p>Centro San Valero</p>
+                <p class="date">2024 - 2026</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Logros y Premios</h2>
+            <div class="card highlight">
+                <h3>1er Puesto en el Concurso AWS Tech Talent Arena (ATTA)</h3>
+                <p>Primer puesto en la resolución de retos basados en la nube de AWS, montaje de equipos y configuración de redes.</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Habilidades Técnicas</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <strong>Sistemas:</strong> Administración de shell en entornos Linux y Windows.
+                </div>
+                <div class="skill-item">
+                    <strong>Servicios de Red:</strong> Configuración y despliegue de servidores Apache, Bind9 y ProFTPD.
+                </div>
+                <div class="skill-item">
+                    <strong>Cloud:</strong> Experiencia práctica con servicios de Amazon Web Services (AWS).
+                </div>
+                <div class="skill-item">
+                    <strong>Software:</strong> Gestión de WordPress, manejo de Adobe Photoshop y nivel avanzado en hojas de cálculo.
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Idiomas</h2>
+            <ul class="languages">
+                <li><strong>Español:</strong> Nativo</li>
+                <li><strong>Inglés:</strong> B2</li>
+                <li><strong>Alemán:</strong> A1</li>
+            </ul>
+        </section>
+    </div>
+
 </body>
 </html>
